@@ -1,0 +1,5 @@
+crossorigin?
+root is replaced by root.render() method
+react is a library which can work with some piece code of application unlike framework which is used to develop whole app and we can not use it in existing app but with react we can use it with different library or framework as well
+react element are objects at the end of the day
+package.json is a configuration for npm

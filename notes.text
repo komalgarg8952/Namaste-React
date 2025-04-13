@@ -1,0 +1,26 @@
+js engine gets all functionality like settimout, dom ,console(web api browser's properties) through window object
+browser provides this timer ,console  using webapi and webapi gives this to js engine using window.
+callback queue ---> macro task queue and used for eventlistener and settimout
+microtask queue ----> used for promises , fetch function and mutation observer  and it has higher priority
+
+
+This is js
+console.log(this)---->points to window object (globalobject whichever is the environment in case of node this is different in global scope)
+function x(){
+    the value depends on strict and non-strict mode, in strict it is undefined and in non strict it is window
+    console.log(this) // 
+}
+x();
+this value also depends how this function is called
+call,bind,apply also used when we want to share method
+
+learn about -
+
+array destructuring
+object destructuring
+rest operator for both
+event bubbling
+event capturing
+settimout
+setinterval
+call,bind,apply
